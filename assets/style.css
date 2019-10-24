@@ -12,6 +12,11 @@ body {
     background-color: purple;
 }
 
+.mybox-border {
+    border: 2px solid black;
+    height: 100px;
+}
+
 .test-height {
     min-height: 100vh;
 }
@@ -24,4 +29,31 @@ body {
 .main-title {
     font-weight: 700;
     font-size: 4rem;
+}
+
+.flexy-outside {
+    border: 2px solid rgb(24, 78, 158);
+    /* display: flex; */
+    /*justify-content: space-between; */
+}
+
+.flexy-inside {
+    background-color: white;
+    border: 2px solid rgb(158, 24, 151);
+    padding: 12px 20px;
+}
+
+.text-block {
+    font-size: 16px;
+}
+
+/* ----------------Form styling */
+
+.form-control {
+        width: 80%;
+}
+
+/* this class is added to the items in the form */
+.block-item {
+    display: inline-block;
 }
