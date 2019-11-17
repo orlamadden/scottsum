@@ -5,16 +5,13 @@ body {
 }
 
 .bg-red-color {
-    background-color: red;
+    background-color: #efefef;
 }
 
-.bg-white-color {
-    background-color: purple;
-}
 
 .mybox-border {
     border: 2px solid black;
-    height: 100px;
+    min-height: 100px;
 }
 
 .test-height {
